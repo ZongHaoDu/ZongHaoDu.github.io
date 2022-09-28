@@ -1,0 +1,76 @@
+.content2{
+	z-index: 0;
+	background-color: white;
+	width: 250px;
+	/*height: 150px;*/
+	padding:100px;
+	position: absolute;
+	top: 5%;
+	left: 60%;
+}
+.content {
+	z-index: 1;
+	color: white;
+	background-color: rgb(130 , 130 , 130);
+	width: 250px;
+	/*height: 150px;*/
+	padding:40px;
+	position: absolute;
+	top: 5%;
+	left: 60%;
+}
+.about{
+	z-index: 1;
+	text-align: center;
+	color: rgb(139,137,112);
+	background-color: rgb(205 , 201 , 201);
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 20%;
+	right: 60%;
+
+}
+.hr1{
+	z-index: 0;
+	border-width: 1px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+.contact{
+	text-align: center;
+	width: 400px;
+	background-color: rgb(232 , 232 , 232);
+	color: black;
+	position: absolute;
+	top: 55%;
+	right: 24%;
+}
+.block{
+	
+	width: 400px;
+	height: 50px;
+	background-color: rgb(232 , 232 , 232);
+	position: absolute;
+	top: 65%;
+	right: 24%;
+}
+body{
+	background-color: black;
+}
+a{ text-decoration:none} a:hover{ text-decoration:none}
+
+#discordid{
+	font-size: 23px;
+	position: absolute;
+	top: 25%;
+	right: 6%;
+}
+.cat{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 55%;
+	right: 6%;
+}
