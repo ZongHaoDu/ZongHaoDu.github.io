@@ -2,27 +2,29 @@
 <html>
   <head>
     <link rel="stylesheet" href="css.css" />
-    <script src="js.js"></script>
+    <!-- <script src="js.js"></script> -->
+    <script src="jquery-3.6.1.js"></script>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
+
     <div class="content2"></div>   
     <div class="content">
-      <a onclick="hello();"><h1>Hello!!!</h1></a> 
+      <a  class="helloalert"><h1>Hello!!!</h1></a> 
       <!-- 點hello跳alert -->
       <h3>Welcome To my Web Page</h3>
     </div> 
     <div class="about">
       <h1>about me</h1>
-      <p>
+      <p class="aboutp">
         Fu Jen Catholic University Sophomore<br><br>Major in Computer Science & Information Engineering<br><br><br>
         <a href="https://fjuonlinejudge.github.io/Training/" style="color:rgb(139,137,112);">CPC</a> Member<br><br><a href="https://www.nisra.net" style="color:rgb(139,137,112); ">NISRA</a> Member
       </p>
     </div>
     <hr class="hr1">
 
-    <a href="javascript:" onclick="document.all.fullContent.style.display=(document.all.fullContent.style.display=='none')?'':'none';document.all.smallContent.style.display=(document.all.smallContent.style.display=='none')?'':'none'" ><h3 class="contact">contact</h3></a>
+    <button class="contact">contact</button>
 
     <div class="block" id="fullContent" style="display:none; text-align: center;">
       <a href="https://www.facebook.com/profile.php?id=100011092218506"><img src="174848.png" style="width: 50px; height: 50px;"></a>
@@ -30,6 +32,29 @@
       <a onclick="idd();"><img src="discord3.png" style="width: 50px; height: 50px;"></a>
       <a id="discordid"></a>
     </div>
+    
     <img src="cat.jpg" class="cat">
+    
+
+    <script>
+      function idd(){
+        document.getElementById('discordid').innerText = "Du#7385";
+        // alert();
+      }
+      $(document).ready(function() {
+        $(".content").css("color", "white");
+        });
+      $(document).ready(function(){
+        $(".contact").click(function(){
+          $("#fullContent").fadeToggle();
+        });
+      });
+      $(document).ready(function(){
+        $( ".helloalert" ).click( function(){alert("Hello");})
+      });
+
+    </script>
+
+</head>
   </body>
 </html>

@@ -10,7 +10,7 @@
 }
 .content {
 	z-index: 1;
-	color: white;
+	/*color: white;*/
 	background-color: rgb(130 , 130 , 130);
 	width: 250px;
 	/*height: 150px;*/
@@ -23,13 +23,12 @@
 	z-index: 1;
 	text-align: center;
 	color: rgb(139,137,112);
-	background-color: rgb(205 , 201 , 201);
+	background-color: rgb(205 , 201 , 201); 
 	width: 400px;
 	height: 400px;
 	position: absolute;
 	top: 20%;
 	right: 60%;
-
 }
 .hr1{
 	z-index: 0;
@@ -42,6 +41,8 @@
 	text-align: center;
 	width: 400px;
 	background-color: rgb(232 , 232 , 232);
+	width: 400px;
+	height: 30px;
 	color: black;
 	position: absolute;
 	top: 55%;
@@ -53,7 +54,7 @@
 	height: 50px;
 	background-color: rgb(232 , 232 , 232);
 	position: absolute;
-	top: 65%;
+	top: 63%;
 	right: 24%;
 }
 body{
